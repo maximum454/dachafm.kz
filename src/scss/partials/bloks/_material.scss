@@ -1,0 +1,15 @@
+.material{
+	color: #fff;
+	font-size: 15px;
+	line-height: 22px;
+	&__img{
+		display: block;
+		margin: 0 auto 1.5rem;
+		border-radius: 12px;
+		max-width: 100%;
+	}
+	&__anons{
+		height: 64px;
+		margin-bottom: 10px;
+	}
+}

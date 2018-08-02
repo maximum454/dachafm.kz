@@ -6,10 +6,9 @@
 
 /*blocks vendors*/
 @import "vendors/bootstrap";
-@import "vendors/bootstrap-theme";
-@import "vendors/slick";
-@import "vendors/arcticmodal-0.3";
 
-/*blocks damutek*/
+/*blocks dacha*/
+@import "bloks/upline";
 @import "bloks/header";
-@import "bloks/nav";
+@import "bloks/frequency";
+@import "bloks/material";

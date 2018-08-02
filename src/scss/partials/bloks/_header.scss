@@ -1,75 +1,54 @@
 .header {
-	position: relative;
-	padding: 14px;
-	&::after {
+	img{
 		display: block;
-		content: "";
-		clear: both;
+		max-width: 100%;
+		margin: 0 auto 20px;
 	}
-	&__logo{
+	h2{
+		color: #fff;
+		font-size: 20px;
+		text-align: center;
+		text-transform: uppercase;
+		margin: 0px;
+	}
+	p{
+		color: #fff;
+		font-size: 12px;
+		margin: 0;
+		text-align: center;
+	}
+	&__berik{
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		width: 100%;
 		height: 100%;
-		object-fit: cover;
-		display: block;
 	}
-	&__location{
-		margin-top: 22px;
-		vertical-align: middle;
-		color: #2E2E2E;
-		font-size: 14px;
-		img{
-			margin-right: 5px;
-		}
-	}
-	&__phone{
-		display: block;
-		margin-top: 22px;
-		vertical-align: middle;
-		color: #2E2E2E;
-		font-size: 14px;
-		text-decoration: none;
-		img{
-			margin-right: 5px;
-		}
-	}
-	&__btn {
-		background-color: #8cddcd;
+	&__online{
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		width: 100%;
-		max-width: 255px;
-		height: 45px;
-		margin-top: 10px;
-		color: #fff;
-		font-size: 18px;
-		font-weight: bold;
-		outline:none;
-		border: none;
-		border-radius: 20px;
+		height: 100%;
 	}
-	@include r(992){
-		&__location{
-			font-size: 12px;
-		}
-		&__phone{
-			font-size: 12px;
-		}
-		&__btn {
-			margin-top: 10px;
-			font-size: 12px;
-		}
-	}
-	@include r(768){
-		&__location{
-			font-size: 18px;
-			text-align: center;
-		}
-		&__phone{
-			font-size: 18px;
-			text-align: center;
-		}
-		&__btn {
-			display: block;
-			font-size: 18px;
-			margin: 20px auto;
+	&__circle{
+		width: 120px;
+		height: 120px;
+		margin: 0 auto 20px;
+		background-image: url("../img/play.png");
+		background-repeat: no-repeat;
+		background-size: auto;
+		background-position: center;
+		background-color: #0083cc;
+		border: 2px solid #fff;
+		border-radius: 50%;
+		cursor: pointer;
+		&.stop{
+			background-image: url("../img/stop.png");
 		}
 	}
 }
