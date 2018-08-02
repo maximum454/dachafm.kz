@@ -1,0 +1,75 @@
+.header {
+	position: relative;
+	padding: 14px;
+	&::after {
+		display: block;
+		content: "";
+		clear: both;
+	}
+	&__logo{
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+	}
+	&__location{
+		margin-top: 22px;
+		vertical-align: middle;
+		color: #2E2E2E;
+		font-size: 14px;
+		img{
+			margin-right: 5px;
+		}
+	}
+	&__phone{
+		display: block;
+		margin-top: 22px;
+		vertical-align: middle;
+		color: #2E2E2E;
+		font-size: 14px;
+		text-decoration: none;
+		img{
+			margin-right: 5px;
+		}
+	}
+	&__btn {
+		background-color: #8cddcd;
+		width: 100%;
+		max-width: 255px;
+		height: 45px;
+		margin-top: 10px;
+		color: #fff;
+		font-size: 18px;
+		font-weight: bold;
+		outline:none;
+		border: none;
+		border-radius: 20px;
+	}
+	@include r(992){
+		&__location{
+			font-size: 12px;
+		}
+		&__phone{
+			font-size: 12px;
+		}
+		&__btn {
+			margin-top: 10px;
+			font-size: 12px;
+		}
+	}
+	@include r(768){
+		&__location{
+			font-size: 18px;
+			text-align: center;
+		}
+		&__phone{
+			font-size: 18px;
+			text-align: center;
+		}
+		&__btn {
+			display: block;
+			font-size: 18px;
+			margin: 20px auto;
+		}
+	}
+}

@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'SourceSansPro';
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url('../fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url('../fonts/SourceSansPro/SourceSansPro-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: local('SourceSansPro Bold'), local('SourceSansPro-Bold'), url('../fonts/SourceSansPro/SourceSansPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-BoldItalic'), url('../fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'BadScript';
+  src: url('../fonts/BadScript/BadScript-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+$fonts1: 'SourceSansPro', Arial, Helvetica, sans-serif;
+$fonts2: 'BadScript';
