@@ -1,34 +1,20 @@
 @font-face {
-  font-family: 'SourceSansPro';
-  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url('../fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+  font-family: 'FiraSans';
+  src: local('FiraSans Regular'), local('FiraSans-Regular'), url('../fonts/FiraSans/FiraSans-Regular.ttf') format('truetype');
   font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'SourceSansPro';
-  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url('../fonts/SourceSansPro/SourceSansPro-Italic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-@font-face {
-  font-family: 'SourceSansPro';
-  src: local('SourceSansPro Bold'), local('SourceSansPro-Bold'), url('../fonts/SourceSansPro/SourceSansPro-Bold.ttf') format('truetype');
-  font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Gilroy';
-  src: local('Source Sans Pro Italic'), local('SourceSansPro-BoldItalic'), url('../fonts/SourceSansPro/SourceSansPro-BoldItalic.ttf') format('truetype');
-  font-weight: bold;
+  font-family: 'FiraSans';
+  src: local('Source Sans Italic'), local('FiraSans-Italic'), url('../fonts/FiraSans/FiraSans-Italic.ttf') format('truetype');
+  font-weight: normal;
   font-style: italic;
 }
 @font-face {
-  font-family: 'BadScript';
-  src: url('../fonts/BadScript/BadScript-Regular.ttf') format('truetype');
+  font-family: 'FiraSans';
+  src: local('FiraSans Bold'), local('FiraSans-Bold'), url('../fonts/FiraSans/FiraSans-Bold.ttf') format('truetype');
   font-weight: bold;
-  font-style: italic;
+  font-style: normal;
 }
 
-
-$fonts1: 'SourceSansPro', Arial, Helvetica, sans-serif;
-$fonts2: 'BadScript';
+$fonts1: 'FiraSans', Arial, Helvetica, sans-serif;

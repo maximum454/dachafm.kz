@@ -11,5 +11,11 @@
 	&__anons{
 		height: 64px;
 		margin-bottom: 10px;
+		letter-spacing: .4px;
+	}
+	@include r(960){
+		&__anons{
+			height: auto;
+		}
 	}
 }
