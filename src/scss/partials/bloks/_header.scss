@@ -55,4 +55,14 @@
 			background-image: url("../img/stop.png");
 		}
 	}
+	@include r(960){
+		&__circle{
+			width: 90px;
+			height: 90px;
+			background-size: 25px;
+			&.stop{
+				background-image: url("../img/stop.png");
+			}
+		}
+	}
 }
